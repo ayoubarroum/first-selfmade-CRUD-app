@@ -1,0 +1,27 @@
+POST http://localhost:5000/employee HTTP/1.1
+Content-Type: application/json
+
+{
+     "lname":"gg",
+     "fname":"abc",
+     "job":"3amil",
+     "salary":"06"
+}
+###
+GET http://localhost:5000/employee HTTP/1.1
+
+
+###
+DELETE http://localhost:5000/employee/5ed776aa740f18035899ce99 HTTP/1.1
+
+
+###
+PUT http://localhost:5000/employee/5ed783af68ddb4152cd339ea HTTP/1.1
+Content-Type: application/json
+
+{
+     "lname":"Success",
+     "fname":"Success",
+     "job":"Success",
+     "salary":"Success"
+}
